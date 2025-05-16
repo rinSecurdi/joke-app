@@ -1,0 +1,60 @@
+/* App.css */
+
+/* Basic container styling */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f0f8ff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+}
+
+/* Heading styling */
+h1 {
+  color: #444;
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Joke container styling */
+.joke-container {
+  font-size: 1.5rem;
+  font-style: italic;
+  color: #555;
+  max-width: 600px;
+  margin-bottom: 30px;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Button styling */
+.generate-joke-button {
+  padding: 12px 25px;
+  font-size: 1.2rem;
+  background-color: #ff6347;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-weight: bold;
+}
+
+/* Button hover effect */
+.generate-joke-button:hover {
+  background-color: #ff4500;
+}
+
+/* Button focus effect */
+.generate-joke-button:focus {
+  outline: none;
+  box-shadow: 0 0 10px rgba(255, 99, 71, 0.5);
+}
